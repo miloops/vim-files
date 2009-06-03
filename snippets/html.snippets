@@ -47,6 +47,18 @@ snippet backspace
 # ⎋
 snippet escape
 	&#x238B;
+snippet á
+	&aacute;
+snippet é
+	&eacute;
+snippet í
+	&iacute;
+snippet ó
+	&oacute;
+snippet ú
+	&uacute;
+snippet ñ
+	&ntilde;
 # Generic Doctype
 snippet doctype HTML 4.01 Strict
 	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""
@@ -188,3 +200,13 @@ snippet table
 	</table>${4}
 snippet textarea
 	<textarea name="${1:Name}" rows="${2:8}" cols="${3:40}">${4}</textarea>${5}
+snippet p
+	<p id="${1:heading}">${2:$1}</p>
+snippet li
+	<li id="${1:heading}">${2:$1}</li>
+snippet ul
+	<ul id="${1:heading}">
+		${2:$1}
+	</ul>
+snippet br
+	<br />

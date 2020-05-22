@@ -160,6 +160,7 @@ Plug 'tpope/vim-rails'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install', 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 Plug 'terryma/vim-multiple-cursors'
 Plug 'mattn/emmet-vim'
+Plug 'AndrewRadev/splitjoin'
 call plug#end()
 
 let g:instant_rst_localhost_only = 1
